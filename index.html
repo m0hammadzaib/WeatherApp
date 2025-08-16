@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    
+    <h1 class="title">Weather App</h1> 
+
+    <section class="search-section">
+        <div class="search-box">
+            <input type="text" placeholder="">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+        <p class="error">Network Error</p> 
+    </section>
+
+    <section class="weather-card">
+        <h2></h2>
+        <p class="temp"></p>
+        <p class="condition"></p>
+        <p class="humidity"></p>
+        <img src="" alt="Weather Icon">
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
